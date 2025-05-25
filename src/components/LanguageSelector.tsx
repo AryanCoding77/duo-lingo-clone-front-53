@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const languages = [
   { name: "ENGLISH", flag: "🇺🇸", code: "en" },
@@ -36,29 +37,27 @@ const LanguageSelector = () => {
   );
 
   return (
-    <div className="bg-gray-50 border-t border-gray-200 py-8">
+    <div className="bg-white border-t border-gray-200 py-6">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-center">
           <button 
             onClick={prevLanguages}
-            className="p-2 text-gray-400 hover:text-gray-600 transition-colors"
+            className="p-2 text-gray-400 hover:text-gray-600 transition-colors mr-4"
             disabled={currentIndex === 0}
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
+            <ChevronLeft className="w-5 h-5" />
           </button>
           
-          <div className="flex items-center space-x-8 mx-8">
+          <div className="flex items-center space-x-6">
             {displayedLanguages.map((language, index) => (
               <div 
                 key={language.code}
-                className="flex items-center space-x-3 cursor-pointer hover:opacity-75 transition-opacity group"
+                className="flex items-center space-x-2 cursor-pointer hover:opacity-75 transition-opacity px-3 py-2 rounded-lg hover:bg-gray-50"
               >
-                <div className="text-2xl transform group-hover:scale-110 transition-transform">
+                <div className="w-8 h-6 flex items-center justify-center text-lg">
                   {language.flag}
                 </div>
-                <span className="text-sm font-medium text-gray-600 uppercase tracking-wide">
+                <span className="text-sm font-medium text-gray-700 uppercase tracking-wide whitespace-nowrap">
                   {language.name}
                 </span>
               </div>
@@ -67,12 +66,10 @@ const LanguageSelector = () => {
           
           <button 
             onClick={nextLanguages}
-            className="p-2 text-gray-400 hover:text-gray-600 transition-colors"
+            className="p-2 text-gray-400 hover:text-gray-600 transition-colors ml-4"
             disabled={currentIndex + visibleLanguages >= languages.length}
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
+            <ChevronRight className="w-5 h-5" />
           </button>
         </div>
       </div>
