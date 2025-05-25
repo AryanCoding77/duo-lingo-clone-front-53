@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
 const Index = () => {
@@ -125,8 +126,9 @@ const Index = () => {
 
         {/* Right side - Content */}
         <div className="w-full lg:w-1/2 text-center lg:text-left lg:pl-12">
-          <h2 className="text-5xl lg:text-6xl font-bold mb-8 leading-tight">
-            <span className="text-duolingo-green">personalized learning</span>
+          <h2 className="text-4xl lg:text-5xl xl:text-6xl font-bold mb-8 leading-tight tracking-tight">
+            <span className="text-duolingo-green">personalized</span>{" "}
+            <span className="text-duolingo-green">learning</span>
           </h2>
           
           <p className="text-gray-600 text-lg lg:text-xl mb-8 leading-relaxed">
