@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
 const Index = () => {
@@ -162,6 +161,35 @@ const Index = () => {
               <Button className="bg-white text-gray-800 hover:bg-gray-100 font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 uppercase tracking-wide">
                 TRY 1 WEEK FREE
               </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Seventh Section - Duolingo English Test */}
+      <section className="bg-gray-50 py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-between">
+            {/* Left side - Content */}
+            <div className="w-full lg:w-1/2 text-center lg:text-left lg:pr-12 mb-12 lg:mb-0">
+              <h2 className="text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-duolingo-green">duolingo english test</span>
+              </h2>
+              
+              <p className="text-gray-600 text-lg lg:text-xl mb-8 leading-relaxed">
+                Our convenient, fast, and affordable English test integrates the latest assessment science and AI — empowering anyone to accurately test their English where and when they're at their best.
+              </p>
+              
+              <Button className="bg-white border-2 border-duolingo-blue text-duolingo-blue hover:bg-duolingo-blue hover:text-white font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 uppercase tracking-wide">
+                CERTIFY YOUR ENGLISH
+              </Button>
+            </div>
+
+            {/* Right side - Animated Illustration */}
+            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+              <div className="relative w-96 h-96 lg:w-[500px] lg:h-[400px] flex items-center justify-center">
+                <img alt="Duolingo English Test illustration" className="w-full h-full object-contain" src="/lovable-uploads/701d31a9-1c7b-47f7-a9b3-c108921a5e76.png" />
+              </div>
             </div>
           </div>
         </div>
