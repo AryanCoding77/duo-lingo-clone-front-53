@@ -119,7 +119,7 @@ const Index = () => {
         {/* Left side - Animated Illustration */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-12 lg:mb-0">
           <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
-            <img alt="Duolingo personalized learning illustration" className="w-full h-full object-contain" src="/lovable-uploads/fb5e6887-dcc9-4ec6-bf81-c769dd719a65.png" />
+            <img alt="Duolingo personalized learning illustration" className="w-full h-full object-contain" src="/lovable-uploads/c3edb795-1d20-4e55-bce3-3c85059ffdc1.png" />
           </div>
         </div>
 
