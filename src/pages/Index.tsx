@@ -1,7 +1,5 @@
-
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
-
 const Index = () => {
   return <div className="min-h-screen bg-white">
       {/* Header */}
@@ -145,11 +143,7 @@ const Index = () => {
             {/* Left side - Super Duo Character */}
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-12 lg:mb-0">
               <div className="relative w-96 h-96 lg:w-[500px] lg:h-[400px] flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/9263a10d-df2f-4c43-9ddb-b8fb0f6127ae.png" 
-                  alt="Super Duolingo character with cape" 
-                  className="w-full h-full object-contain animate-float" 
-                />
+                <img alt="Super Duolingo character with cape" className="w-full h-full object-contain animate-float" src="/lovable-uploads/9abd2d83-e337-423f-86c4-b59df7d77333.png" />
               </div>
             </div>
 
@@ -173,5 +167,4 @@ const Index = () => {
       </section>
     </div>;
 };
-
 export default Index;
