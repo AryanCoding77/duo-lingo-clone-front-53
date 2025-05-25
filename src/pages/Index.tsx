@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
+
 const Index = () => {
   return <div className="min-h-screen bg-white">
       {/* Header */}
@@ -225,6 +226,36 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Ninth Section - Duolingo ABC */}
+      <section className="bg-white py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-between">
+            {/* Left side - Content */}
+            <div className="w-full lg:w-1/2 text-center lg:text-left lg:pr-12 mb-12 lg:mb-0">
+              <h2 className="text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+                <span className="text-duolingo-green">duolingo abc</span>
+              </h2>
+              
+              <p className="text-gray-600 text-lg lg:text-xl mb-8 leading-relaxed">
+                From language to literacy! With fun phonics lessons and delightful stories, Duolingo ABC helps kids ages 3–8 learn to read and write — 100% free.
+              </p>
+              
+              <Button className="bg-white border-2 border-duolingo-blue text-duolingo-blue hover:bg-duolingo-blue hover:text-white font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 uppercase tracking-wide">
+                LEARN MORE ABOUT ABC
+              </Button>
+            </div>
+
+            {/* Right side - ABC Illustration */}
+            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+              <div className="relative w-96 h-96 lg:w-[500px] lg:h-[400px] flex items-center justify-center">
+                <img alt="Duolingo ABC illustration with characters and building blocks" className="w-full h-full object-contain" src="/lovable-uploads/e177de8e-3a48-40cc-b19d-9fbd3d00eb49.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>;
 };
+
 export default Index;
