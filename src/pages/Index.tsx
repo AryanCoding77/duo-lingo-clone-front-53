@@ -54,6 +54,35 @@ const Index = () => {
         </div>
       </main>
 
+      {/* Second Section - Duplicate */}
+      <section className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 lg:py-20 bg-gray-50">
+        {/* Left side - Content */}
+        <div className="w-full lg:w-1/2 text-center lg:text-left lg:pr-12 mb-12 lg:mb-0">
+          <h2 className="text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+            <span className="text-duolingo-green">free.</span>{" "}
+            <span className="text-duolingo-blue">fun.</span>{" "}
+            <span className="text-duolingo-green">effective.</span>
+          </h2>
+          
+          <p className="text-gray-600 text-lg lg:text-xl mb-8 leading-relaxed">
+            Learning with Duolingo is fun, and{" "}
+            <span className="text-duolingo-blue font-semibold">research shows that it works!</span>{" "}
+            With quick, bite-sized lessons, you'll earn points and unlock new levels while gaining real-world communication skills.
+          </p>
+        </div>
+
+        {/* Right side - Animated Illustration */}
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
+            <img 
+              src="/lovable-uploads/fa89f082-025c-42cc-b82d-46f9941466d4.png"
+              alt="Duolingo learning effectiveness illustration"
+              className="w-full h-full object-contain animate-float-delayed"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Language Selector */}
       <LanguageSelector />
     </div>
