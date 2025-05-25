@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
 const Index = () => {
@@ -137,7 +138,7 @@ const Index = () => {
       </section>
 
       {/* Sixth Section - Super Duolingo */}
-      <section className="bg-gradient-to-r from-purple-900 via-blue-900 to-purple-900 py-20 px-6">
+      <section style={{ backgroundColor: '#100f3e' }} className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center justify-between">
             {/* Left side - Super Duo Character */}
