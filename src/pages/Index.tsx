@@ -1,4 +1,5 @@
 
+
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
 const Index = () => {
@@ -68,10 +69,32 @@ const Index = () => {
         {/* Right side - Animated Illustration */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
           <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
-            <img alt="Duolingo learning effectiveness illustration" className="w-full h-full object-contain animate-float-delayed" src="/lovable-uploads/583b6e29-4e88-457b-a94b-675daf57e35e.png" />
+            <img alt="Duolingo learning effectiveness illustration" className="w-full h-full object-contain" src="/lovable-uploads/583b6e29-4e88-457b-a94b-675daf57e35e.png" />
           </div>
+        </div>
+      </section>
+
+      {/* Third Section - Backed by Science */}
+      <section className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 lg:py-20">
+        {/* Left side - Animated Illustration */}
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-12 lg:mb-0">
+          <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
+            <img src="/lovable-uploads/9d409a7c-a56a-46f7-840c-b6623712ccd5.png" alt="Duolingo backed by science illustration" className="w-full h-full object-contain" />
+          </div>
+        </div>
+
+        {/* Right side - Content */}
+        <div className="w-full lg:w-1/2 text-center lg:text-left lg:pl-12">
+          <h2 className="text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+            <span className="text-duolingo-green">backed by science</span>
+          </h2>
+          
+          <p className="text-gray-600 text-lg lg:text-xl mb-8 leading-relaxed">
+            We use a combination of research-backed teaching methods and delightful content to create courses that effectively teach reading, writing, listening, and speaking skills!
+          </p>
         </div>
       </section>
     </div>;
 };
 export default Index;
+
