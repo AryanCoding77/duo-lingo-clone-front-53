@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
+
 const Index = () => {
   return <div className="min-h-screen bg-white">
       {/* Header */}
@@ -135,6 +137,41 @@ const Index = () => {
           </p>
         </div>
       </section>
+
+      {/* Sixth Section - Super Duolingo */}
+      <section className="bg-gradient-to-r from-purple-900 via-blue-900 to-purple-900 py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-between">
+            {/* Left side - Super Duo Character */}
+            <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-12 lg:mb-0">
+              <div className="relative w-96 h-96 lg:w-[500px] lg:h-[400px] flex items-center justify-center">
+                <img 
+                  src="/lovable-uploads/9263a10d-df2f-4c43-9ddb-b8fb0f6127ae.png" 
+                  alt="Super Duolingo character with cape" 
+                  className="w-full h-full object-contain animate-float" 
+                />
+              </div>
+            </div>
+
+            {/* Right side - Content */}
+            <div className="w-full lg:w-1/2 text-center lg:text-left lg:pl-12">
+              <h2 className="text-white text-3xl lg:text-4xl font-bold mb-4 uppercase tracking-wide">
+                Power up with
+              </h2>
+              <h1 className="text-6xl lg:text-7xl font-black mb-8 leading-none">
+                <span className="bg-gradient-to-r from-green-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">
+                  SUPER DUOLINGO
+                </span>
+              </h1>
+              
+              <Button className="bg-white text-gray-800 hover:bg-gray-100 font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 uppercase tracking-wide">
+                TRY 1 WEEK FREE
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>;
 };
+
 export default Index;
