@@ -1,10 +1,11 @@
+
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
 
 const Index = () => {
   return <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+      <header className="flex flex-col sm:flex-row justify-between items-center px-6 py-4 max-w-7xl mx-auto gap-4 sm:gap-0">
         <div className="flex items-center">
           <div className="w-8 h-8 bg-duolingo-green rounded-full flex items-center justify-center mr-2">
             <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
