@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-white">
+  return <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
         <div className="flex items-center">
@@ -25,11 +22,7 @@ const Index = () => {
         {/* Left side - Animated Illustration */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-12 lg:mb-0">
           <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
-            <img 
-              src="/lovable-uploads/56b70118-b402-49fa-9176-d862283f1ecf.png"
-              alt="Duolingo characters learning together"
-              className="w-full h-full object-contain animate-float"
-            />
+            <img src="/lovable-uploads/56b70118-b402-49fa-9176-d862283f1ecf.png" alt="Duolingo characters learning together" className="w-full h-full object-contain animate-float" />
           </div>
         </div>
 
@@ -40,10 +33,7 @@ const Index = () => {
           </h1>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <Button 
-              className="bg-duolingo-green hover:bg-duolingo-green-dark text-white font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105"
-              size="lg"
-            >
+            <Button className="bg-duolingo-green hover:bg-duolingo-green-dark text-white font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105" size="lg">
               GET STARTED
             </Button>
             
@@ -74,19 +64,13 @@ const Index = () => {
         {/* Right side - Animated Illustration */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
           <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
-            <img 
-              src="/lovable-uploads/fa89f082-025c-42cc-b82d-46f9941466d4.png"
-              alt="Duolingo learning effectiveness illustration"
-              className="w-full h-full object-contain animate-float-delayed"
-            />
+            <img alt="Duolingo learning effectiveness illustration" className="w-full h-full object-contain animate-float-delayed" src="/lovable-uploads/583b6e29-4e88-457b-a94b-675daf57e35e.png" />
           </div>
         </div>
       </section>
 
       {/* Language Selector */}
       <LanguageSelector />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
