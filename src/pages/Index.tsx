@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
 const Index = () => {
@@ -44,6 +45,9 @@ const Index = () => {
         </div>
       </main>
 
+      {/* Language Selector */}
+      <LanguageSelector />
+
       {/* Second Section - Duplicate */}
       <section className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 lg:py-20 bg-gray-50">
         {/* Left side - Content */}
@@ -68,9 +72,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-
-      {/* Language Selector */}
-      <LanguageSelector />
     </div>;
 };
 export default Index;
