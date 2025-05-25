@@ -48,7 +48,7 @@ const Index = () => {
       <LanguageSelector />
 
       {/* Second Section - Duplicate */}
-      <section className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 lg:py-20 bg-gray-50">
+      <section className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 lg:py-20">
         {/* Left side - Content */}
         <div className="w-full lg:w-1/2 text-center lg:text-left lg:pr-12 mb-12 lg:mb-0">
           <h2 className="text-5xl lg:text-6xl font-bold mb-8 leading-tight">
@@ -90,6 +90,27 @@ const Index = () => {
           <p className="text-gray-600 text-lg lg:text-xl mb-8 leading-relaxed">
             We use a combination of research-backed teaching methods and delightful content to create courses that effectively teach reading, writing, listening, and speaking skills!
           </p>
+        </div>
+      </section>
+
+      {/* Fourth Section - Stay Motivated */}
+      <section className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 lg:py-20 bg-gray-50">
+        {/* Left side - Content */}
+        <div className="w-full lg:w-1/2 text-center lg:text-left lg:pr-12 mb-12 lg:mb-0">
+          <h2 className="text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+            <span className="text-duolingo-green">stay motivated</span>
+          </h2>
+          
+          <p className="text-gray-600 text-lg lg:text-xl mb-8 leading-relaxed">
+            We make it easy to form a habit of language learning with game-like features, fun challenges, and reminders from our friendly mascot, Duo the owl.
+          </p>
+        </div>
+
+        {/* Right side - Animated Illustration */}
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
+            <img alt="Duolingo stay motivated illustration" className="w-full h-full object-contain" src="/lovable-uploads/ac359db6-a9f8-42f0-ac0a-574f8b211550.png" />
+          </div>
         </div>
       </section>
     </div>;
