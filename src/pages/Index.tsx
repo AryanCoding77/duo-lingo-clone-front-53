@@ -109,7 +109,7 @@ const Index = () => {
         {/* Right side - Animated Illustration */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
           <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
-            <img alt="Duolingo stay motivated illustration" className="w-full h-full object-contain" src="/lovable-uploads/ac359db6-a9f8-42f0-ac0a-574f8b211550.png" />
+            <img alt="Duolingo stay motivated illustration" className="w-full h-full object-contain" src="/lovable-uploads/a43d8c16-4ae8-4b6b-ae04-f99d9e467639.png" />
           </div>
         </div>
       </section>
