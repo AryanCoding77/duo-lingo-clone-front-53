@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
 
@@ -286,14 +287,14 @@ const Index = () => {
       </section>
 
       {/* Final Section - Learn a Language with Duolingo */}
-      <section className="bg-duolingo-green py-12 sm:py-16 lg:py-20 px-4 sm:px-6 relative overflow-hidden">
+      <section className="bg-duolingo-green py-20 px-6 relative overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <h2 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 leading-tight px-4">
-            learn a language<br className="hidden sm:block" />
-            <span className="sm:hidden"> </span>with duolingo
+          <h2 className="text-white text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+            learn a language<br />
+            with duolingo
           </h2>
           
-          <Button className="bg-white text-duolingo-green hover:bg-gray-100 font-bold py-3 sm:py-4 px-8 sm:px-12 rounded-xl text-base sm:text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 uppercase tracking-wide">
+          <Button className="bg-white text-duolingo-green hover:bg-gray-100 font-bold py-4 px-12 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 uppercase tracking-wide">
             GET STARTED
           </Button>
         </div>
@@ -305,15 +306,15 @@ const Index = () => {
             <img 
               src="/lovable-uploads/379eeed7-157d-4241-b511-f2fc8ef11913.png" 
               alt="Duolingo owl character with floating elements" 
-              className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[500px] lg:h-[400px] object-contain opacity-20 sm:opacity-30 md:opacity-50 lg:opacity-100"
+              className="w-96 h-96 lg:w-[500px] lg:h-[400px] object-contain"
             />
           </div>
 
-          {/* Additional floating decorative elements */}
-          <div className="absolute top-16 sm:top-20 left-16 sm:left-20 w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8 bg-yellow-400 rounded-full opacity-60 sm:opacity-80"></div>
-          <div className="absolute top-24 sm:top-32 right-24 sm:right-32 w-3 h-3 sm:w-4 sm:h-4 md:w-6 md:h-6 bg-blue-400 rounded-full opacity-50 sm:opacity-70"></div>
-          <div className="absolute bottom-16 sm:bottom-20 left-24 sm:left-32 w-5 h-5 sm:w-7 sm:h-7 md:w-10 md:h-10 bg-red-400 rounded-full opacity-40 sm:opacity-60"></div>
-          <div className="absolute bottom-24 sm:bottom-32 right-16 sm:right-20 w-4 h-4 sm:w-5 sm:h-5 md:w-7 md:h-7 bg-orange-400 rounded-full opacity-55 sm:opacity-75"></div>
+          {/* Additional floating decorative elements could be added here */}
+          <div className="absolute top-20 left-20 w-8 h-8 bg-yellow-400 rounded-full opacity-80"></div>
+          <div className="absolute top-32 right-32 w-6 h-6 bg-blue-400 rounded-full opacity-70"></div>
+          <div className="absolute bottom-20 left-32 w-10 h-10 bg-red-400 rounded-full opacity-60"></div>
+          <div className="absolute bottom-32 right-20 w-7 h-7 bg-orange-400 rounded-full opacity-75"></div>
         </div>
       </section>
 
