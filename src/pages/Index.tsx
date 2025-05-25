@@ -127,7 +127,7 @@ const Index = () => {
         <div className="w-full lg:w-1/2 text-center lg:text-left lg:pl-12">
           <h2 className="text-5xl lg:text-6xl font-light mb-8 leading-relaxed">
             <span className="text-duolingo-green block font-bold">personalized</span>
-            <span className="text-duolingo-green block font-bold">learning</span>
+            <span className="text-duolingo-green block font-bold my-[8px]">learning</span>
           </h2>
           
           <p className="text-gray-600 text-lg lg:text-xl mb-8 leading-relaxed">
