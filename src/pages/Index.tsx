@@ -1,45 +1,44 @@
-
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
 
 const Index = () => {
   return <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
-        <div className="flex items-center">
-          <div className="w-8 h-8 bg-duolingo-green rounded-full flex items-center justify-center mr-2">
-            <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
-              <div className="w-4 h-4 bg-duolingo-green rounded-full"></div>
+      <header className="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-6 py-3 sm:py-4 max-w-7xl mx-auto">
+        <div className="flex items-center mb-2 sm:mb-0">
+          <div className="w-7 h-7 sm:w-8 sm:h-8 bg-duolingo-green rounded-full flex items-center justify-center mr-2">
+            <div className="w-5 h-5 sm:w-6 sm:h-6 bg-white rounded-full flex items-center justify-center">
+              <div className="w-3 h-3 sm:w-4 sm:h-4 bg-duolingo-green rounded-full"></div>
             </div>
           </div>
-          <span className="text-2xl font-bold text-duolingo-green">duolingo</span>
+          <span className="text-xl sm:text-2xl font-bold text-duolingo-green">duolingo</span>
         </div>
-        <div className="text-sm text-gray-600 uppercase tracking-wide">
+        <div className="text-xs sm:text-sm text-gray-600 uppercase tracking-wide">
           SITE LANGUAGE: ENGLISH
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 lg:py-20">
+      <main className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-10 md:py-12 lg:py-20">
         {/* Left side - Animated Illustration */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-12 lg:mb-0">
-          <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-8 sm:mb-10 md:mb-12 lg:mb-0">
+          <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
             <img src="/lovable-uploads/56b70118-b402-49fa-9176-d862283f1ecf.png" alt="Duolingo characters learning together" className="w-full h-full object-contain animate-float" />
           </div>
         </div>
 
         {/* Right side - Content */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left lg:pl-12">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-800 mb-8 leading-tight">
+        <div className="w-full lg:w-1/2 text-center lg:text-left lg:pl-8 xl:pl-12">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold text-gray-800 mb-6 sm:mb-8 leading-tight">
             The free, fun, and effective way to learn a language!
           </h1>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <Button className="bg-duolingo-green hover:bg-duolingo-green-dark text-white font-bold py-4 px-8 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105" size="lg">
+            <Button className="bg-duolingo-green hover:bg-duolingo-green-dark text-white font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-xl text-base sm:text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105" size="lg">
               GET STARTED
             </Button>
             
-            <button className="text-duolingo-blue hover:text-duolingo-blue-dark font-bold py-4 px-8 text-lg transition-colors duration-200 uppercase tracking-wide">
+            <button className="text-duolingo-blue hover:text-duolingo-blue-dark font-bold py-3 sm:py-4 px-6 sm:px-8 text-base sm:text-lg transition-colors duration-200 uppercase tracking-wide">
               I ALREADY HAVE AN ACCOUNT
             </button>
           </div>
@@ -287,14 +286,14 @@ const Index = () => {
       </section>
 
       {/* Final Section - Learn a Language with Duolingo */}
-      <section className="bg-duolingo-green py-20 px-6 relative overflow-hidden">
+      <section className="bg-duolingo-green py-12 sm:py-16 md:py-20 px-4 sm:px-6 relative overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <h2 className="text-white text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+          <h2 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 leading-tight">
             learn a language<br />
             with duolingo
           </h2>
           
-          <Button className="bg-white text-duolingo-green hover:bg-gray-100 font-bold py-4 px-12 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 uppercase tracking-wide">
+          <Button className="bg-white text-duolingo-green hover:bg-gray-100 font-bold py-3 sm:py-4 px-8 sm:px-12 rounded-xl text-base sm:text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 uppercase tracking-wide">
             GET STARTED
           </Button>
         </div>
@@ -306,26 +305,26 @@ const Index = () => {
             <img 
               src="/lovable-uploads/379eeed7-157d-4241-b511-f2fc8ef11913.png" 
               alt="Duolingo owl character with floating elements" 
-              className="w-96 h-96 lg:w-[500px] lg:h-[400px] object-contain"
+              className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[500px] lg:h-[400px] object-contain"
             />
           </div>
 
-          {/* Additional floating decorative elements could be added here */}
-          <div className="absolute top-20 left-20 w-8 h-8 bg-yellow-400 rounded-full opacity-80"></div>
-          <div className="absolute top-32 right-32 w-6 h-6 bg-blue-400 rounded-full opacity-70"></div>
-          <div className="absolute bottom-20 left-32 w-10 h-10 bg-red-400 rounded-full opacity-60"></div>
-          <div className="absolute bottom-32 right-20 w-7 h-7 bg-orange-400 rounded-full opacity-75"></div>
+          {/* Additional floating decorative elements - adjusted for better small screen visibility */}
+          <div className="absolute top-10 sm:top-20 left-6 sm:left-20 w-6 sm:w-8 h-6 sm:h-8 bg-yellow-400 rounded-full opacity-80"></div>
+          <div className="absolute top-16 sm:top-32 right-8 sm:right-32 w-4 sm:w-6 h-4 sm:h-6 bg-blue-400 rounded-full opacity-70"></div>
+          <div className="absolute bottom-10 sm:bottom-20 left-10 sm:left-32 w-8 sm:w-10 h-8 sm:h-10 bg-red-400 rounded-full opacity-60"></div>
+          <div className="absolute bottom-16 sm:bottom-32 right-6 sm:right-20 w-5 sm:w-7 h-5 sm:h-7 bg-orange-400 rounded-full opacity-75"></div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-duolingo-green text-white py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
+      <footer className="bg-duolingo-green text-white py-10 sm:py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 mb-8 sm:mb-12">
             {/* About us */}
             <div>
-              <h3 className="font-bold text-lg mb-4">About us</h3>
-              <ul className="space-y-3 text-sm">
+              <h3 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">About us</h3>
+              <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm">
                 <li><a href="#" className="hover:underline">Courses</a></li>
                 <li><a href="#" className="hover:underline">Mission</a></li>
                 <li><a href="#" className="hover:underline">Approach</a></li>
@@ -343,8 +342,8 @@ const Index = () => {
 
             {/* Products */}
             <div>
-              <h3 className="font-bold text-lg mb-4">Products</h3>
-              <ul className="space-y-3 text-sm">
+              <h3 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Products</h3>
+              <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm">
                 <li><a href="#" className="hover:underline">Duolingo</a></li>
                 <li><a href="#" className="hover:underline">Duolingo for Schools</a></li>
                 <li><a href="#" className="hover:underline">Duolingo English Test</a></li>
@@ -359,8 +358,8 @@ const Index = () => {
 
             {/* Apps */}
             <div>
-              <h3 className="font-bold text-lg mb-4">Apps</h3>
-              <ul className="space-y-3 text-sm">
+              <h3 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Apps</h3>
+              <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm">
                 <li><a href="#" className="hover:underline">Duolingo for Android</a></li>
                 <li><a href="#" className="hover:underline">Duolingo for iOS</a></li>
               </ul>
@@ -368,8 +367,8 @@ const Index = () => {
 
             {/* Help and support */}
             <div>
-              <h3 className="font-bold text-lg mb-4">Help and support</h3>
-              <ul className="space-y-3 text-sm">
+              <h3 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Help and support</h3>
+              <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm">
                 <li><a href="#" className="hover:underline">Duolingo FAQs</a></li>
                 <li><a href="#" className="hover:underline">Schools FAQs</a></li>
                 <li><a href="#" className="hover:underline">Duolingo English Test FAQs</a></li>
@@ -379,16 +378,16 @@ const Index = () => {
 
             {/* Privacy and terms & Social */}
             <div>
-              <h3 className="font-bold text-lg mb-4">Privacy and terms</h3>
-              <ul className="space-y-3 text-sm mb-8">
+              <h3 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Privacy and terms</h3>
+              <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm mb-6 sm:mb-8">
                 <li><a href="#" className="hover:underline">Community guidelines</a></li>
                 <li><a href="#" className="hover:underline">Terms</a></li>
                 <li><a href="#" className="hover:underline">Privacy</a></li>
                 <li><a href="#" className="hover:underline">Respecting your "do not sell my personal information" rights</a></li>
               </ul>
 
-              <h3 className="font-bold text-lg mb-4">Social</h3>
-              <ul className="space-y-3 text-sm">
+              <h3 className="font-bold text-base sm:text-lg mb-3 sm:mb-4">Social</h3>
+              <ul className="space-y-2 sm:space-y-3 text-xs sm:text-sm">
                 <li><a href="#" className="hover:underline">Blog</a></li>
                 <li><a href="#" className="hover:underline">Instagram</a></li>
                 <li><a href="#" className="hover:underline">TikTok</a></li>
@@ -399,9 +398,9 @@ const Index = () => {
           </div>
 
           {/* Site language section */}
-          <div className="border-t border-green-400 pt-8">
-            <h3 className="font-bold text-lg mb-6">Site language:</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-x-6 gap-y-3 text-sm">
+          <div className="border-t border-green-400 pt-6 sm:pt-8">
+            <h3 className="font-bold text-base sm:text-lg mb-4 sm:mb-6">Site language:</h3>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-x-4 sm:gap-x-6 gap-y-2 sm:gap-y-3 text-xs sm:text-sm">
               <a href="#" className="hover:underline">العربية</a>
               <a href="#" className="hover:underline">বাংলা</a>
               <a href="#" className="hover:underline">Čeština</a>
