@@ -317,6 +317,123 @@ const Index = () => {
           <div className="absolute bottom-32 right-20 w-7 h-7 bg-orange-400 rounded-full opacity-75"></div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-duolingo-green text-white py-16">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
+            {/* About us */}
+            <div>
+              <h3 className="font-bold text-lg mb-4">About us</h3>
+              <ul className="space-y-3 text-sm">
+                <li><a href="#" className="hover:underline">Courses</a></li>
+                <li><a href="#" className="hover:underline">Mission</a></li>
+                <li><a href="#" className="hover:underline">Approach</a></li>
+                <li><a href="#" className="hover:underline">Efficacy</a></li>
+                <li><a href="#" className="hover:underline">Duolingo Handbook</a></li>
+                <li><a href="#" className="hover:underline">Research</a></li>
+                <li><a href="#" className="hover:underline">Careers</a></li>
+                <li><a href="#" className="hover:underline">Brand guidelines</a></li>
+                <li><a href="#" className="hover:underline">Store</a></li>
+                <li><a href="#" className="hover:underline">Press</a></li>
+                <li><a href="#" className="hover:underline">Investors</a></li>
+                <li><a href="#" className="hover:underline">Contact us</a></li>
+              </ul>
+            </div>
+
+            {/* Products */}
+            <div>
+              <h3 className="font-bold text-lg mb-4">Products</h3>
+              <ul className="space-y-3 text-sm">
+                <li><a href="#" className="hover:underline">Duolingo</a></li>
+                <li><a href="#" className="hover:underline">Duolingo for Schools</a></li>
+                <li><a href="#" className="hover:underline">Duolingo English Test</a></li>
+                <li><a href="#" className="hover:underline">Duolingo Math</a></li>
+                <li><a href="#" className="hover:underline">Podcast</a></li>
+                <li><a href="#" className="hover:underline">Duolingo for Business</a></li>
+                <li><a href="#" className="hover:underline">Super Duolingo</a></li>
+                <li><a href="#" className="hover:underline">Gift Super Duolingo</a></li>
+                <li><a href="#" className="hover:underline">Duolingo Max</a></li>
+              </ul>
+            </div>
+
+            {/* Apps */}
+            <div>
+              <h3 className="font-bold text-lg mb-4">Apps</h3>
+              <ul className="space-y-3 text-sm">
+                <li><a href="#" className="hover:underline">Duolingo for Android</a></li>
+                <li><a href="#" className="hover:underline">Duolingo for iOS</a></li>
+              </ul>
+            </div>
+
+            {/* Help and support */}
+            <div>
+              <h3 className="font-bold text-lg mb-4">Help and support</h3>
+              <ul className="space-y-3 text-sm">
+                <li><a href="#" className="hover:underline">Duolingo FAQs</a></li>
+                <li><a href="#" className="hover:underline">Schools FAQs</a></li>
+                <li><a href="#" className="hover:underline">Duolingo English Test FAQs</a></li>
+                <li><a href="#" className="hover:underline">Status</a></li>
+              </ul>
+            </div>
+
+            {/* Privacy and terms & Social */}
+            <div>
+              <h3 className="font-bold text-lg mb-4">Privacy and terms</h3>
+              <ul className="space-y-3 text-sm mb-8">
+                <li><a href="#" className="hover:underline">Community guidelines</a></li>
+                <li><a href="#" className="hover:underline">Terms</a></li>
+                <li><a href="#" className="hover:underline">Privacy</a></li>
+                <li><a href="#" className="hover:underline">Respecting your "do not sell my personal information" rights</a></li>
+              </ul>
+
+              <h3 className="font-bold text-lg mb-4">Social</h3>
+              <ul className="space-y-3 text-sm">
+                <li><a href="#" className="hover:underline">Blog</a></li>
+                <li><a href="#" className="hover:underline">Instagram</a></li>
+                <li><a href="#" className="hover:underline">TikTok</a></li>
+                <li><a href="#" className="hover:underline">Twitter</a></li>
+                <li><a href="#" className="hover:underline">YouTube</a></li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Site language section */}
+          <div className="border-t border-green-400 pt-8">
+            <h3 className="font-bold text-lg mb-6">Site language:</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-x-6 gap-y-3 text-sm">
+              <a href="#" className="hover:underline">العربية</a>
+              <a href="#" className="hover:underline">বাংলা</a>
+              <a href="#" className="hover:underline">Čeština</a>
+              <a href="#" className="hover:underline">Deutsch</a>
+              <a href="#" className="hover:underline">Ελληνικά</a>
+              <a href="#" className="hover:underline">English</a>
+              <a href="#" className="hover:underline">Español</a>
+              <a href="#" className="hover:underline">Français</a>
+              <a href="#" className="hover:underline">हिंदी</a>
+              <a href="#" className="hover:underline">Magyar</a>
+              <a href="#" className="hover:underline">Bahasa Indonesia</a>
+              <a href="#" className="hover:underline">Italiano</a>
+              <a href="#" className="hover:underline">日本語</a>
+              <a href="#" className="hover:underline">한국어</a>
+              <a href="#" className="hover:underline">Nederlands</a>
+              <a href="#" className="hover:underline">Polski</a>
+              <a href="#" className="hover:underline">Português</a>
+              <a href="#" className="hover:underline">Română</a>
+              <a href="#" className="hover:underline">Русский</a>
+              <a href="#" className="hover:underline">svenska</a>
+              <a href="#" className="hover:underline">தமிழ்</a>
+              <a href="#" className="hover:underline">తెలుగు</a>
+              <a href="#" className="hover:underline">ภาษาไทย</a>
+              <a href="#" className="hover:underline">Tagalog</a>
+              <a href="#" className="hover:underline">Türkçe</a>
+              <a href="#" className="hover:underline">Українською</a>
+              <a href="#" className="hover:underline">Tiếng Việt</a>
+              <a href="#" className="hover:underline">中文</a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>;
 };
 
