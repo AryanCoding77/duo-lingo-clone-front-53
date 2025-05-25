@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
-
 const Index = () => {
   return <div className="min-h-screen bg-white">
       {/* Header */}
@@ -249,7 +248,7 @@ const Index = () => {
             {/* Right side - ABC Illustration */}
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
               <div className="relative w-96 h-96 lg:w-[500px] lg:h-[400px] flex items-center justify-center">
-                <img alt="Duolingo ABC illustration with characters and building blocks" className="w-full h-full object-contain" src="/lovable-uploads/e177de8e-3a48-40cc-b19d-9fbd3d00eb49.png" />
+                <img alt="Duolingo ABC illustration with characters and building blocks" className="w-full h-full object-contain" src="/lovable-uploads/6af3e279-58fc-4d6e-8001-8462880cbc06.png" />
               </div>
             </div>
           </div>
@@ -257,5 +256,4 @@ const Index = () => {
       </section>
     </div>;
 };
-
 export default Index;
