@@ -113,6 +113,27 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Fifth Section - Personalized Learning */}
+      <section className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 lg:py-20">
+        {/* Left side - Animated Illustration */}
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-12 lg:mb-0">
+          <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
+            <img alt="Duolingo personalized learning illustration" className="w-full h-full object-contain" src="/lovable-uploads/fb5e6887-dcc9-4ec6-bf81-c769dd719a65.png" />
+          </div>
+        </div>
+
+        {/* Right side - Content */}
+        <div className="w-full lg:w-1/2 text-center lg:text-left lg:pl-12">
+          <h2 className="text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+            <span className="text-duolingo-green">personalized learning</span>
+          </h2>
+          
+          <p className="text-gray-600 text-lg lg:text-xl mb-8 leading-relaxed">
+            Combining the best of AI and language science, lessons are tailored to help you learn at just the right level and pace.
+          </p>
+        </div>
+      </section>
     </div>;
 };
 export default Index;
