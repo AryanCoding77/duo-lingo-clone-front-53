@@ -1,5 +1,3 @@
-
-
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
 const Index = () => {
@@ -79,7 +77,7 @@ const Index = () => {
         {/* Left side - Animated Illustration */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-12 lg:mb-0">
           <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
-            <img src="/lovable-uploads/9d409a7c-a56a-46f7-840c-b6623712ccd5.png" alt="Duolingo backed by science illustration" className="w-full h-full object-contain" />
+            <img alt="Duolingo backed by science illustration" className="w-full h-full object-contain" src="/lovable-uploads/9879c1c2-58c7-472e-a4ec-e6736866e343.png" />
           </div>
         </div>
 
@@ -97,4 +95,3 @@ const Index = () => {
     </div>;
 };
 export default Index;
-
