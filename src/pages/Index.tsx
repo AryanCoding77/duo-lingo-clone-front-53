@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import LanguageSelector from "@/components/LanguageSelector";
+
 const Index = () => {
   return <div className="min-h-screen bg-white">
       {/* Header */}
@@ -283,6 +284,39 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Final Section - Learn a Language with Duolingo */}
+      <section className="bg-duolingo-green py-20 px-6 relative overflow-hidden">
+        <div className="max-w-4xl mx-auto text-center relative z-10">
+          <h2 className="text-white text-5xl lg:text-6xl font-bold mb-8 leading-tight">
+            learn a language<br />
+            with duolingo
+          </h2>
+          
+          <Button className="bg-white text-duolingo-green hover:bg-gray-100 font-bold py-4 px-12 rounded-xl text-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 uppercase tracking-wide">
+            GET STARTED
+          </Button>
+        </div>
+
+        {/* Floating Elements */}
+        <div className="absolute inset-0 pointer-events-none">
+          {/* Duolingo Owl Character */}
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+            <img 
+              src="/lovable-uploads/379eeed7-157d-4241-b511-f2fc8ef11913.png" 
+              alt="Duolingo owl character with floating elements" 
+              className="w-96 h-96 lg:w-[500px] lg:h-[400px] object-contain animate-float"
+            />
+          </div>
+
+          {/* Additional floating decorative elements could be added here */}
+          <div className="absolute top-20 left-20 w-8 h-8 bg-yellow-400 rounded-full animate-float opacity-80"></div>
+          <div className="absolute top-32 right-32 w-6 h-6 bg-blue-400 rounded-full animate-float-delayed opacity-70"></div>
+          <div className="absolute bottom-20 left-32 w-10 h-10 bg-red-400 rounded-full animate-float opacity-60"></div>
+          <div className="absolute bottom-32 right-20 w-7 h-7 bg-orange-400 rounded-full animate-float-delayed opacity-75"></div>
+        </div>
+      </section>
     </div>;
 };
+
 export default Index;
