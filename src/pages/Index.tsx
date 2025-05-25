@@ -22,56 +22,14 @@ const Index = () => {
 
       {/* Main Content */}
       <main className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-12 lg:py-20">
-        {/* Left side - Illustration */}
+        {/* Left side - Animated Illustration */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start mb-12 lg:mb-0">
-          <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px]">
-            {/* Phone mockup */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-80 bg-gray-100 rounded-3xl shadow-lg border-8 border-gray-200">
-              <div className="w-full h-full bg-gradient-to-b from-blue-50 to-green-50 rounded-2xl flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-duolingo-green rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <div className="w-10 h-10 bg-white rounded-full"></div>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="w-20 h-3 bg-gray-300 rounded mx-auto"></div>
-                    <div className="w-16 h-3 bg-gray-200 rounded mx-auto"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Floating characters */}
-            <div className="absolute top-8 left-8 w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full animate-float shadow-lg flex items-center justify-center">
-              <div className="text-white text-xl">🎭</div>
-            </div>
-            
-            <div className="absolute top-16 right-12 w-20 h-20 bg-gradient-to-br from-pink-400 to-pink-600 rounded-full animate-float-delayed shadow-lg flex items-center justify-center">
-              <div className="text-white text-2xl">👧</div>
-            </div>
-            
-            <div className="absolute top-32 right-4 w-14 h-14 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full animate-float shadow-lg flex items-center justify-center">
-              <div className="text-white text-lg">🦊</div>
-            </div>
-            
-            <div className="absolute bottom-32 left-4 w-18 h-18 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full animate-float-delayed shadow-lg flex items-center justify-center">
-              <div className="text-white text-xl">👨</div>
-            </div>
-            
-            <div className="absolute bottom-20 left-20 w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full animate-float shadow-lg flex items-center justify-center">
-              <div className="text-white text-xl">📚</div>
-            </div>
-            
-            <div className="absolute bottom-8 right-8 w-20 h-20 bg-gradient-to-br from-green-400 to-green-600 rounded-full animate-float-delayed shadow-lg flex items-center justify-center">
-              <div className="text-white text-2xl">🦉</div>
-            </div>
-            
-            <div className="absolute bottom-16 right-32 w-14 h-14 bg-gradient-to-br from-red-400 to-red-600 rounded-full animate-float shadow-lg flex items-center justify-center">
-              <div className="text-white text-lg">👩</div>
-            </div>
-            
-            <div className="absolute top-40 left-16 w-16 h-16 bg-gradient-to-br from-teal-400 to-teal-600 rounded-full animate-float-delayed shadow-lg flex items-center justify-center">
-              <div className="text-white text-xl">🐻</div>
-            </div>
+          <div className="relative w-96 h-96 lg:w-[500px] lg:h-[500px] flex items-center justify-center">
+            <img 
+              src="/lovable-uploads/56b70118-b402-49fa-9176-d862283f1ecf.png"
+              alt="Duolingo characters learning together"
+              className="w-full h-full object-contain animate-float"
+            />
           </div>
         </div>
 
