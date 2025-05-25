@@ -137,7 +137,9 @@ const Index = () => {
       </section>
 
       {/* Sixth Section - Super Duolingo */}
-      <section style={{ backgroundColor: '#100f3e' }} className="py-20 px-6">
+      <section style={{
+      backgroundColor: '#100f3e'
+    }} className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center justify-between">
             {/* Left side - Super Duo Character */}
@@ -188,7 +190,7 @@ const Index = () => {
             {/* Right side - Animated Illustration */}
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
               <div className="relative w-96 h-96 lg:w-[500px] lg:h-[400px] flex items-center justify-center">
-                <img alt="Duolingo English Test illustration" className="w-full h-full object-contain" src="/lovable-uploads/701d31a9-1c7b-47f7-a9b3-c108921a5e76.png" />
+                <img alt="Duolingo English Test illustration" className="w-full h-full object-contain" src="/lovable-uploads/795e9332-5f9e-4d6d-b60f-4c3b7b5538c3.png" />
               </div>
             </div>
           </div>
